@@ -3,9 +3,6 @@
 <title>Game voting page</title>
 </head>
 <body>
-<form method="POST" action="Graph.php">
-<input type="submit" value="submit" name="submit" style="vertical-align: middle">
-</form>
 <form method="POST" action="Voting.php">
     <p style="vertical-align: middle"><b>What is most awaiting game from Bethesda:</b></p>
     <table align="center">
@@ -17,9 +14,11 @@
     <input type="radio" name="radio" value="elder" style="vertical-align: middle">Elder Scrolls VI</p>
     <input type="radio" name="radio" value="wolf" style="vertical-align: middle">Wolfenstein Youngblood</p>
 </table>
-    <input type="checkbox" name="terms" value="accept" style="vertical-align: middle">Suhlasim s hlasovanim<br>
+    <input type="checkbox" name="terms" style="vertical-align: middle">Suhlasim s hlasovanim<br>
     <input type="submit" value="submit" name="submit" style="vertical-align: middle">
 </form>
+<form method="POST" action="Graph.php">
+<input type="submit" value="Graph" name="submit" style="vertical-align: middle">
 </form>
 </body>
 </html>
